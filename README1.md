@@ -112,3 +112,7 @@ Voice cloning using Base model
 GCP deployment
 Real-time API serving
 Benchmarking vs other TTS models
+
+Outputs: we acheived chunk_.. wav audio file along with metrics like leatency, RTF, aduio duration in he output..
+
+Now we are adding moe like voiceclonning, caching, multilingual...  

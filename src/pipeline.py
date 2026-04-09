@@ -21,13 +21,14 @@ def run_pipeline(model, text):
         start = time.time()
 
         # ✅ Correct function for CustomVoice model
-        wavs, sr = model.generate_custom_voice(
+        wavs, sr = model.generate_voice_clone(
             text=chunk,
             language="English",
-            speaker="Ryan"   # predefined voice
+            ref_audio="data/speaker.wav",
+            ref_text="This is the reference speaker voice."
         )
 
-        file_path = f"output/chunk_{i}.wav"
+        file_path = f"output/chunkks_{i}.wav"
         sf.write(file_path, wavs[0], sr)
 
         # Calculate duration
