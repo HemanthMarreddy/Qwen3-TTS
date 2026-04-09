@@ -22,3 +22,37 @@ wheels/
 .vscode/
 venv/
 env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Output audio files
+output/
+*.wav
+
+# Model cache (VERY IMPORTANT)
+.cache/
+huggingface/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
