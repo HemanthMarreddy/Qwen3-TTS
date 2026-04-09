@@ -1,0 +1,30 @@
+# Core ML
+torch
+torchaudio
+transformers
+accelerate
+
+# Audio processing
+librosa
+soundfile
+scipy
+numpy
+
+# Tokenization
+sentencepiece
+
+# Hugging Face ecosystem
+huggingface_hub
+
+# Utilities
+tqdm
+einops
+
+# Audio / system
+ffmpeg-python
+
+# Optional UI (if repo has demo)
+gradio
+
+# Optional optimization
+onnxruntime
